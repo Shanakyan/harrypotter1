@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/harrypotter1/static/css/main.f4b38c8b.css",
-    "main.js": "/harrypotter1/static/js/main.47e3c60a.js",
+    "main.js": "/harrypotter1/static/js/main.195c66a9.js",
     "static/js/453.1fdc6064.chunk.js": "/harrypotter1/static/js/453.1fdc6064.chunk.js",
     "static/media/logo.svg": "/harrypotter1/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/harrypotter1/index.html",
     "main.f4b38c8b.css.map": "/harrypotter1/static/css/main.f4b38c8b.css.map",
-    "main.47e3c60a.js.map": "/harrypotter1/static/js/main.47e3c60a.js.map",
+    "main.195c66a9.js.map": "/harrypotter1/static/js/main.195c66a9.js.map",
     "453.1fdc6064.chunk.js.map": "/harrypotter1/static/js/453.1fdc6064.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4b38c8b.css",
-    "static/js/main.47e3c60a.js"
+    "static/js/main.195c66a9.js"
   ]
 }
