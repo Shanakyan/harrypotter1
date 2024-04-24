@@ -4,7 +4,7 @@ export const Select = ({value}) => {
     return(
      <div className={s.selectWrap}>
 
-        <p className={s.headerItemTitle}>School</p>
+        <p >School</p>
         <select  className={s.headerSection} value={value} >
                         <option >{value}</option>
                         <option value="Gryffindor">Gryffindor</option>

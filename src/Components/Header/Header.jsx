@@ -25,7 +25,7 @@ export const Header = () => {
                  
                 </div>           
             </header>
-            <Card/>
+            {/* <Card/> */}
         </Container>
   
 

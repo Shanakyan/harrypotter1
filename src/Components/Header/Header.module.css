@@ -2,12 +2,11 @@ header{
     color: #000;
     font-style: normal;
     margin-top: 64px;
-   
-
+    margin-bottom: 40px; 
 }
 .header {    
     font-size: 64px;    
-    font-weight: 700;
+    font-weight: 700;    
 }
 .headerContext{
     font-size: 21px;
@@ -30,6 +29,9 @@ header{
     max-width: 100%;
     display: flex;
     flex-direction: column;
+}
+.inputWrap p{
+    color: #818182;
 }
 
 input{

@@ -3,6 +3,9 @@
     max-width: 334px;
     display: flex;
     flex-direction: column;
+    border-radius: 4px;
+    border: 1px solid  #DEE2E6;
+    background: #FFF;
 
 }
 .CardImage {
@@ -17,4 +20,12 @@
 }
 .CardContent {
     padding: 25px;
+}
+p{
+    color:  #152536;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 }
