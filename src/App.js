@@ -22,8 +22,9 @@ function App() {
   }
    
   useEffect(()=>{   
-
-    const filteredcards = data.filter(el=>(el.name.toLowerCase().includes(inputValue))&&(el.house==schoolName)) 
+    //  const filteredcards = data.filter(el=>schoolName?el.house==schoolName:el.name)
+    // const filteredcards = data.filter(el=>(el.name.toLowerCase().includes(inputValue))&&(el.house==schoolName)) 
+    const filteredcards = data.filter(el=>(schoolName)?(el.name.toLowerCase().includes(inputValue))&&(el.house==schoolName):(el.name.toLowerCase().includes(inputValue))) 
    setSelectedPerson(filteredcards)
   },[inputValue,schoolName])
 
@@ -37,9 +38,7 @@ function App() {
      handleSelect={handleSelect}
      />
      <Main filtered={selectedPerson}
-    />
-      
-     
+    />         
     
     </div>
   ); 
