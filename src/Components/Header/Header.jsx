@@ -1,11 +1,12 @@
 import s from './Header.module.css'
 import { Select } from '../Select/Select' 
 import { Container } from '../Container/Container'
-import { useState } from 'react';
+
+import { data } from '../../data ';
 import { Card } from '../Card';
 
-export const Header = () => {
-    const [schoolName, setSchoolName] =useState("Choose school");
+export const Header = ({inputValue,schoolName,handleInput,handleSelect }) => {
+
     return(
        
         <Container>
@@ -15,17 +16,18 @@ export const Header = () => {
                 <div className={s.headerInputWrapper}>
                     <div className={s.inputWrap}>         
                         <p>Name</p>
-                        <input type="text" name="" value="Hermione" />
+                    <input onChange={handleInput} type="text"  placeholder="Hermione"  />
                 </div> 
                                 
                     <Select
-                        value={schoolName}
+                    schoolName={schoolName}
+                    handleSelect={handleSelect}
                     />
                    
                  
                 </div>           
             </header>
-            {/* <Card/> */}
+            
         </Container>
   
 
