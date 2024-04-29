@@ -1,7 +1,7 @@
 import { Card } from '../Card'
 import { Container } from '../Container/Container'
 import s from './Main.module.css'
-import { data } from '../../data '
+// import { data } from '../../data '
 
 export const Main = ({filtered}) => {   
    
