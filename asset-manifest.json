@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/harrypotter1/static/css/main.f4b38c8b.css",
-    "main.js": "/harrypotter1/static/js/main.17eecf3a.js",
+    "main.css": "/harrypotter1/static/css/main.a21115a2.css",
+    "main.js": "/harrypotter1/static/js/main.d8a73746.js",
     "static/js/453.1fdc6064.chunk.js": "/harrypotter1/static/js/453.1fdc6064.chunk.js",
     "static/media/logo.svg": "/harrypotter1/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/harrypotter1/index.html",
-    "main.f4b38c8b.css.map": "/harrypotter1/static/css/main.f4b38c8b.css.map",
-    "main.17eecf3a.js.map": "/harrypotter1/static/js/main.17eecf3a.js.map",
+    "main.a21115a2.css.map": "/harrypotter1/static/css/main.a21115a2.css.map",
+    "main.d8a73746.js.map": "/harrypotter1/static/js/main.d8a73746.js.map",
     "453.1fdc6064.chunk.js.map": "/harrypotter1/static/js/453.1fdc6064.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4b38c8b.css",
-    "static/js/main.17eecf3a.js"
+    "static/css/main.a21115a2.css",
+    "static/js/main.d8a73746.js"
   ]
 }
