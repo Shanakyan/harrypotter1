@@ -22,7 +22,7 @@ function App() {
   } 
   
 useEffect( () => {
-  async function func() {
+  async function getCards() {
 
     try{
         const res = await fetch("https://hp-api.onrender.com/api/characters")
@@ -41,15 +41,14 @@ useEffect( () => {
 			}      
 
   }
-  func()
+  getCards()
 }
 // func();
 , [inputValue, schoolName])
 
 
   // useEffect(()=>{   
-  //   //  const filteredcards = data.filter(el=>schoolName?el.house==schoolName:el.name)
-  //   // const filteredcards = data.filter(el=>(el.name.toLowerCase().includes(inputValue))&&(el.house==schoolName)) 
+   
   //   const filteredcards = data.filter(el=>(schoolName)?(el.name.toLowerCase().includes(inputValue))&&(el.house==schoolName):(el.name.toLowerCase().includes(inputValue))) 
   //  setSelectedPerson(filteredcards)
   // },[inputValue,schoolName])
