@@ -33,15 +33,12 @@ useEffect( () => {
        const data = await res.json();
        const filteredcards = data.filter(el=>(schoolName)?(el.name.toLowerCase().includes(inputValue))&&(el.house==schoolName):(el.name.toLowerCase().includes(inputValue)))
       setSelectedPerson(filteredcards)
-      console.log(selectedPerson);
-         
+      console.log(selectedPerson);         
   
-    }  
-    
+    }     
       catch (err) {
-				console.error("err");				
-			}
-        
+				alert("error");				
+			}      
 
   }
   func()

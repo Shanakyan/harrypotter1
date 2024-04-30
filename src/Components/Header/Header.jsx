@@ -12,7 +12,7 @@ export const Header = ({inputValue,schoolName,handleInput,handleSelect }) => {
         <Container>
             <header>
                 <h1 className={s.header}>Harry Potter</h1>
-                <p className={s.headerContext}>View all characters from the Harry Potter universe</p>
+                <p className={s.headerContent}>View all characters from the Harry Potter universe</p>
                 <div className={s.headerInputWrapper}>
                     <div className={s.inputWrap}>         
                         <p>Name</p>

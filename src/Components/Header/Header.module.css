@@ -8,14 +8,17 @@ header{
     font-size: 64px;    
     font-weight: 700;    
 }
-.headerContext{
+.headerContent{
     font-size: 21px;
     font-weight: 400;
     line-height: 36px;
     margin-bottom: 48px;
 }
 .headerInputWrapper{
-    display: flex;
+    width: 100%;
+    display: flex;  
+    flex-wrap: wrap;
+    gap: 20px; 
     justify-content: space-between;
     align-items: center;
     color:  #ABB5BE;       
@@ -25,9 +28,10 @@ header{
     line-height: 21px;
 }
 .inputWrap{
-    width: 452px;
-    max-width: 100%;
+    width: 100%;
+    max-width:452px ;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
 }
 .inputWrap p{
@@ -36,8 +40,8 @@ header{
 
 input{
     /* display: block; */
-    width: 452px;
     max-width: 100%;
+    /* max-width: 452px;    */
     padding: 9px 0 8px 17px;
     border-radius: 4px;
     border: 1px solid  #CED4DA;
@@ -45,5 +49,23 @@ input{
     font-size: 16px;
     color: #6C757D;
 }
+@media (max-width:576px) {
+    .headerInputWrapper{
+        /* flex-wrap: wrap; */
+    }
+    .header{
+        font-size: 52px;
+        line-height: 63px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 28px;
+    }
+    input{
+        width:100%;
 
+    }
+    
+}
    

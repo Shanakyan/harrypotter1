@@ -29,3 +29,9 @@ p{
     font-weight: 400;
     line-height: 28px;
 }
+@media (max-width:420px) {
+    .card{
+        max-width: 320px;
+    }
+    
+}

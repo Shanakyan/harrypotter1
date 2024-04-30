@@ -1,6 +1,7 @@
-.Select {}
+
 .selectWrap{
-   
+   width: 100%;
+   max-width: 216px;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -12,7 +13,8 @@
 }
 .headerSection{
     font-size: 16px;
-    width: 216px;
+    width: 100%;
+   max-width: 216px;
     height: 38px;
     padding: 9px 0 8px 15px;
     color: #6C757D;
@@ -20,3 +22,13 @@
     border: 1px solid #CED4DA;
     background: #FFF;
     }
+
+    @media (max-width:576px) {
+        .headerSection{
+        /* width: 100%; */
+        max-width: 100%;
+    
+        }
+        
+    }
+       
